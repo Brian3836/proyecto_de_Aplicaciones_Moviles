@@ -1,1 +1,2 @@
-# proyecto_de_Aplicaciones_Moviles
+# clase #04
+El objetivo de la clase es trabajar con eventos de vue.
