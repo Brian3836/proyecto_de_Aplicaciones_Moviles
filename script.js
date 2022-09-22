@@ -6,6 +6,13 @@ var app = new Vue({
     mostrarBoton: false,
     codigoHtml: '<h1>Titulo de pagina </h1>',
     estaChequeado: false
+  methods: {
+    //agregartexto: function (){...},
+    //agregarTitulos: function(){...},
+    mostrarTextoEnConsola: function () {
+      console.log('TEXTO EN CONSOLA');
+      
+    },
   }
 })
 
