@@ -1,6 +1,7 @@
 var app = new Vue({
   el: '#app',
   data: {
+    email: '',
     contador: 0,
     message: 'Hola Vue!',
     mostrarBoton: false,
@@ -13,6 +14,10 @@ var app = new Vue({
       console.log('TEXTO EN CONSOLA');
       
     },
+    enviar: function(){
+      alert('ESTAMOS ENVIANDO');//MUESTRA UN EVENTO AL SOLTAR LA TECLA ENTER
+    }
+
   }
 })
 

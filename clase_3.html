@@ -12,6 +12,7 @@
 <body>
   <div id="app">
    
+    <input v-on:keyup.enter="enviar" v-model="email"> <!-- MUESTRA UN EVENTO AL SOLTAR LA TECLA ENTER -->
     <!-- <button v-on:click="mostrarTextoEnConsola">MOSTRAR TEXTO</button> -->
     <button @click="mostrarTextoEnConsola">MOSTRAR TEXTO</button>
   </div>
